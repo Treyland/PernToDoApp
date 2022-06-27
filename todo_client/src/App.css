@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+
+.appHeader {
+  width: 100%;
+  text-align:center;
+  margin-top: 1rem;
+}
+
+#appTitle {
+  margin-bottom: 5rem;
+  font-size: 4rem;
+}
+
+.appHeader form {
+  margin-bottom: 2rem;
+}
+
+.appHeader input {
+  width: 20rem;
+}
+
+.appHeader button {
+  font-weight: bold;
+  width: 4rem;
+}
+
+/*ToDo Table Styling*/
+table {
+ border-spacing: 1rem 2rem;
+ text-align: center;
+ table-layout: fixed;
+ width: 75%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.todoHeaders {
+  border-bottom: 2px solid black;
+  font-size: 1.5rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid black;
+}
+
+.todoRow>td {
+  padding: 1rem 1rem;
+}
+
+#editButton {
+  height: 2rem;
+  width: 4rem;
+  background-color: rgb(0, 200, 255);
+  font-weight: bold;
+}
+
+#deleteButton {
+  background-color: rgba(255, 0, 0, 0.8);
+  font-weight: bold;
+  height: 2rem;
+  width: 4rem;
+}
+
+#modalEditButton {
+  background-color: rgb(0, 200, 255);
+  height: 2rem;
+  width: 4rem;
+  font-weight: bold;
+}
+
+#modalDeleteButton {
+  background-color: rgb(223, 141, 19);
+  height: 2rem;
+  width: 4rem;
+  font-weight: bold;
+}
+
+#modalInput {
+  width: 20rem;
+}
